@@ -832,9 +832,9 @@ document.getElementById("passwordError");
 
 function checkPassword(){
 
-    if(passwordInput.value === correctPassword){
+    if(correctPasswords.includes(passwordInput.value)){
 
-        passwordScreen.style.display = "none";
+    passwordScreen.style.display = "none";
 
     }else{
 
